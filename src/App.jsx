@@ -48,7 +48,7 @@ const App = () => {
       {/* Error */}
       {error && <p className="text-red-200 font-medium mb-4">{error}</p>}
 
-      {/* Weather Card */}
+      {/* Weather card */}
       {weather && <WeatherCard weather={weather} />}
     </div>
   );
